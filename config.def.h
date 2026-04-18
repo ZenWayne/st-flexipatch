@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "monospace:pixelsize=20:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
@@ -209,10 +209,10 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-	"#000000", /* 258 -> bg */
-	"#e5e5e5", /* 259 -> fg */
+	"#cccccc", /* 256 -> cursor */
+	"#555555", /* 257 -> rev cursor */
+	"black",   /* 258 -> bg */
+	"gray90",  /* 259 -> fg */
 };
 
 

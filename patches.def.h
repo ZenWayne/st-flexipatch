@@ -14,7 +14,7 @@
  * when including this patch.
  * https://st.suckless.org/patches/alpha/
  */
-#define ALPHA_PATCH 0
+#define ALPHA_PATCH 1
 
 /* The alpha focus highlight patch allows the user to specify two distinct opacity values or
  * background colors in order to easily differentiate between focused and unfocused terminal
@@ -39,7 +39,7 @@
 /* This patch allows st to resize to any pixel size rather than snapping to character width/height.
  * https://st.suckless.org/patches/anysize/
  */
-#define ANYSIZE_PATCH 0
+#define ANYSIZE_PATCH 1
 
 /* A simple variant of the anysize patch that only changes the resize hints to allow the window to
  * be resized to any size.
@@ -359,13 +359,13 @@
 /* Scroll back through terminal output using Shift+{PageUp, PageDown}.
  * https://st.suckless.org/patches/scrollback/
  */
-#define SCROLLBACK_PATCH 0
+#define SCROLLBACK_PATCH 1
 
 /* Scroll back through terminal output using Shift+MouseWheel.
  * This variant depends on SCROLLBACK_PATCH being enabled.
  * https://st.suckless.org/patches/scrollback/
  */
-#define SCROLLBACK_MOUSE_PATCH 0
+#define SCROLLBACK_MOUSE_PATCH 1
 
 /* Scroll back through terminal output using mouse wheel (when not in MODE_ALTSCREEN).
  * This variant depends on SCROLLBACK_PATCH being enabled.
@@ -405,7 +405,7 @@
  *
  * https://gist.github.com/saitoha/70e0fdf22e3e8f63ce937c7f7da71809
  */
-#define SIXEL_PATCH 0
+#define SIXEL_PATCH 1
 
 /* This patch allows clients to embed into the st window and is useful if you tend to
  * start X applications from the terminal. For example:
